@@ -57,7 +57,7 @@ export default function CarvioHome() {
         </div>
       </nav>
 
-      {/* 🎯 Hero */}
+      {/*  Hero */}
       <main className="pt-20 lg:pt-24 pb-12 px-6 max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
 
@@ -69,16 +69,18 @@ export default function CarvioHome() {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight text-white">
               Stop Scrolling. <br />
-              <span className="text-[#9BA7B4]">While Others Search, You Apply.</span>
+              <span className="text-white/35">While Others Search, You Apply.</span>
             </h1>
 
             <p className="text-base md:text-lg text-[#9BA7B4] max-w-md leading-relaxed">
-              Carvio currently filters 5+ sources to deliver only fresh, relevant opportunities directly to your inbox.
+              Carvio currently monitors 32+ companies across 11+ domains to deliver only fresh, relevant opportunities directly to your inbox.
             </p>
+
+            <p className="text-base md:text-lg text-white/80 max-w-md leading-relaxed">Set it once. We'll handle the rest.</p>
 
             {/* Email Form Section */}
             <div className="space-y-4 max-w-md pt-2">
-              {/* ⚡ NEW: Three Step Instruction Line */}
+              {/*  NEW: Three Step Instruction Line */}
               <div className="flex items-center gap-2 text-[11px] font-bold text-[#2F8F83] tracking-wider uppercase bg-[#2F8F83]/5 w-fit px-3 py-1.5 rounded-lg border border-[#2F8F83]/10">
                 <Layers size={14} />
                 <span>Just 3 steps to your first alert</span>
@@ -91,7 +93,7 @@ export default function CarvioHome() {
                 </Link>
 
                 <p className="text-center text-[10px] text-[#555E67] font-bold tracking-[0.15em] uppercase">
-                  No spam • Only relevant jobs
+                  New roles drop daily — be the first to apply.
                 </p>
               </div>
             </div>
