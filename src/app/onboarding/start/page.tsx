@@ -21,7 +21,7 @@ export default function CarvioOnboardingStart() {
       setClicked(true);
       try {
         await signup(formData);
-        toast.success("We’ve sent a verification link. Check your email to continue.");
+        toast.success("We’ve sent a verification code. Check your email to continue.");
         router.push("/onboarding/verify-email");
       } catch(error) {
           
